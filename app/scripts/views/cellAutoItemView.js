@@ -1,7 +1,7 @@
 /*
  * cellAutoItemView.js
  *
- * This view represents one cell in the cellular automation grid. 
+ * This view represents one row in the cellular automation grid.
  */
 define([
     'jquery',
