@@ -1,8 +1,8 @@
 /*
  * cellAutoCompositeView.js
  *
- * This view represents one 'row' in the cellular automation grid, calling CellAutoItemView
- * for each cell in the row.
+ * This view represents the cellular automation grid, calling CellAutoItemView to render each
+ * row in the table.
  */
 define([
     'jquery',
