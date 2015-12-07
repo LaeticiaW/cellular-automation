@@ -1,0 +1,56 @@
+/*
+ * This file contains the configuration for jshint
+ */
+{
+    /* ---------------------------------------------------*
+     * Globals                                            *
+     * ---------------------------------------------------*/
+
+    "globals": { 
+        "CellAutoApp": false,
+        "define": false 
+    },
+
+    /* ---------------------------------------------------*
+     * Enforcing Options                                  *
+     * ---------------------------------------------------*/
+
+    "maxparams": 30,
+    "maxdepth": 6,
+    "maxstatements": 200,
+    "maxcomplexity": 15,
+    "maxlen": 130,
+
+    "bitwise": true,
+    "camelcase": true,
+    "curly": true, 
+    "eqeqeq": true,
+    "es3": true,
+    "freeze": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonew": true,
+    "undef": true,
+    "unused": true,
+    "trailing": true,
+
+    "indent": 4, 
+
+    /* ---------------------------------------------------*
+     * Relaxing Options                                   *
+     * ---------------------------------------------------*/
+
+    "laxbreak": true,
+
+    /* ---------------------------------------------------*
+     * Environment Options                                *
+     * ---------------------------------------------------*/
+
+    "browser": true,
+    "jquery": true,
+    "devel": true
+
+}
