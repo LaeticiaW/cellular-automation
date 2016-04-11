@@ -3,7 +3,7 @@
 ## Summary
 A cellular automation is a set of cells in a grid, where each cell has a state, such as on or off.  At  specified intervals,
 a set of rules is applied to the current state in order to calculate the next state.  The rules determine the next state of a
-cell by looking at the the cell's state and its neighboring cells' states.
+cell by looking at the the cell's current state and its neighboring cells' current states.
 
 This example of cellular-automation uses the Rule30 algorithm as described here: http://mathworld.wolfram.com/Rule30.html.
 
