@@ -17,7 +17,7 @@ determine the next state of a given cell.  Using 1 for on and 0 for off, the 8 s
 This web application was written in Javascript using the Backbone/Marionette framework and Bootstrap.
 
 ## Dependencies
-* Node and npm
+* Node and npm, which can be installed from this site: https://nodejs.org/en/
 
 ## To start and run the cellular-automation web app
 Download and unzip the cellular-automation zip file
