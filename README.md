@@ -10,8 +10,9 @@ This example of cellular-automation uses the Rule30 algorithm as described here:
 With the Rule30 algorithm, a cell's next state is determined by its own state and the states of the cells immediately to its
 right and left.  Since there are 3 cell inputs, and each cell can have two states (on and off), there are 8 rules used to
 determine the next state of a given cell.  Using 1 for on and 0 for off, the 8 states and corresponding outcomes are as follows: 
-
-111 = 0, 110 = 1, 101 = 0, 100 = 1, 011 = 1, 010 = 1, 001 = 1, 000 = 0
+```shell
+111 = 0,  110 = 1,  101 = 0,  100 = 1,  011 = 1,  010 = 1,  001 = 1,  000 = 0
+```
 
 ## Tech Stack
 This web application was written in Javascript using the Backbone/Marionette framework and Bootstrap.
