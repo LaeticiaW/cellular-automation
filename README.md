@@ -1,5 +1,7 @@
 # cellular-automation
 
+![ScreenShot](img/cellular-automation.png)
+
 ## Summary
 A cellular automation is a set of cells in a grid, where each cell has a state, such as on or off.  At  specified intervals,
 a set of rules is applied to the current state in order to calculate the next state.  The rules determine the next state of a
